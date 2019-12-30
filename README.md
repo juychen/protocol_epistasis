@@ -1,24 +1,19 @@
-# Detecting high-order epistasis in nonlinear genotype-phenotype maps
-**Zachary R Sailer and Michael J Harms**
+# Analyzing High-Order Epistasis from Genotype-Phenotype Maps using 'epistasis' Package
+**Junyi Chen and Ka-Chun Wong**
 
-[![Binder](http://mybinder.org/badge.svg)](https://beta.mybinder.org/v2/gh/harmslab/notebooks-nonlinear-high-order-epistasis/master)
-[![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](http://nbviewer.jupyter.org/github/harmslab/notebooks-nonlinear-high-order-epistasis/blob/master/index.ipynb)
+This repository contains Jupyter notebooks that reproduce the results and analysis in the protocol chapter: "Analyzing High-Order Epistasis from Genotype-Phenotype Maps using 'epistasis' Package". It is a step-by-step guide to apply the package in supplementary to the out-of-dated official API documentation.
+Methods and data are provided in the avaliability of the original paper "Detecting High-Order Epistasis in Nonlinear Genotype-Phenotype Maps." published in Genetics, March 2017.
 
-This repository contains Jupyter notebooks that reproduce the results and analysis in our paper: "Detecting high-order epistasis in nonlinear genotype-phenotype maps." published in Genetics, March 2017.
-
-See the paper [here](http://www.genetics.org/content/205/3/1079).
-
-## Try out the notebooks!
-
-All results and analysis are reproducible in Jupyter notebooks. Try the the notebooks [now](http://mybinder.org:/repo/harmslab/notebooks-nonlinear-high-order-epistasis), graciously provided by the Binder web service.
+See the original paper [here](http://www.genetics.org/content/205/3/1079)
+and data [here](https://github.com/harmslab/notebooks-nonlinear-highorder-epistasis).
 
 ## Download and Install
 
 If you'd like to run the notebooks locally, clone this repository and make sure you have all the necessary dependencies are installed and are running Python 3. Here's a list of everything you'll need:
 
 ```
-epistasis==0.2.0
-gpmap==0.2.0
+epistasis==0.7.1
+gpmap==0.6.1
 notebook
 ipython
 numpy
@@ -38,10 +33,5 @@ The following formats are used in to create all data, metadata, and figures for 
 - Data, analysis, raw-figures, code, etc. were all done in Jupyter Notebooks saved as `.ipynb` files. Guaranteed to work with Python 3.
 
 ## Table of Contents
-
-- Figure 1: **Epistasis can be quantified using Walsh polynomials** (no notebook for this figure)
-- [Figure 2](figures-notebooks/figure-02.ipynb): **Nonlinearity in phenotype creates spurious high-order epistatic coefficients.**
-- [Figure 3](figures-notebooks/figure-03.ipynb): **Epistasis and nonlinear scale induce different patterns of nonadditivity.**
-- [Figure 4](figures-notebooks/figure-04.ipynb): **Experimental genotype-phenotype maps exhibit nonlinear phenotypes.**
-- [Figure 5](figures-notebooks/figure-05.ipynb): **High-order epistasis is present in genotype-phenotype maps.**
-- [Figure 6](figures-notebooks/figure-06.ipynb): **Nonlinear phenotypes distort measured epistatic coefficients.**
+- [Figure 1](figures-notebooks/powertransform.ipynb):  **Experimental genotype-phenotype maps exhibit nonlinear phenotypes.**
+- [Figure 2](figures-notebooks/highorder.ipynb): **High-order epistasis is present in genotype-phenotype maps.**
