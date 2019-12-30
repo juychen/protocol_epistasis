@@ -1,0 +1,10 @@
+gpmap==0.2
+epistasis==0.2
+sklearn
+matplotlib>=2.0
+numpy
+scipy
+jupyter
+ipython
+ipywidgets
+cython
