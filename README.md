@@ -5,7 +5,7 @@ This repository contains Jupyter notebooks that reproduce the results and analys
 Methods and data are provided in the avaliability of the original paper "Detecting High-Order Epistasis in Nonlinear Genotype-Phenotype Maps." published in Genetics, March 2017.
 
 See the original paper [here](http://www.genetics.org/content/205/3/1079)
-and data [here](https://github.com/harmslab/notebooks-nonlinear-highorder-epistasis).
+and data [here](https://github.com/harmslab/notebooks-nonlinear-high-order-epistasis).
 
 ## Download and Install
 
